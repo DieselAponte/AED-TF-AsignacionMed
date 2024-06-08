@@ -1,0 +1,3 @@
+C:/Users/Diesel/CLionProjects/AED-TF-AsignacionMed/cmake-build-debug/CMakeFiles/AED_TF_AsignacionMed.dir
+C:/Users/Diesel/CLionProjects/AED-TF-AsignacionMed/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Diesel/CLionProjects/AED-TF-AsignacionMed/cmake-build-debug/CMakeFiles/rebuild_cache.dir
