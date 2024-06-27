@@ -56,10 +56,10 @@ RM = "D:\CLion 2024.1.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\C++Proyectos\AED-TF-GestionMed
+CMAKE_SOURCE_DIR = D:\C++Proyectos\AED-TF-AsignacionMed
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\C++Proyectos\AED-TF-GestionMed\cmake-build-debug
+CMAKE_BINARY_DIR = D:\C++Proyectos\AED-TF-AsignacionMed\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\C++Proyectos\AED-TF-GestionMed\cmake-build-debug\CMakeFiles D:\C++Proyectos\AED-TF-GestionMed\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\C++Proyectos\AED-TF-AsignacionMed\cmake-build-debug\CMakeFiles D:\C++Proyectos\AED-TF-AsignacionMed\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\C++Proyectos\AED-TF-GestionMed\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\C++Proyectos\AED-TF-AsignacionMed\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -116,24 +116,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named GestionMed
+# Target rules for targets named AED_TF_AsignacionMed
 
 # Build rule for target.
-GestionMed: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 GestionMed
-.PHONY : GestionMed
+AED_TF_AsignacionMed: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 AED_TF_AsignacionMed
+.PHONY : AED_TF_AsignacionMed
 
 # fast build rule for target.
-GestionMed/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GestionMed.dir\build.make CMakeFiles/GestionMed.dir/build
-.PHONY : GestionMed/fast
+AED_TF_AsignacionMed/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AED_TF_AsignacionMed.dir\build.make CMakeFiles/AED_TF_AsignacionMed.dir/build
+.PHONY : AED_TF_AsignacionMed/fast
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GestionMed.dir\build.make CMakeFiles/GestionMed.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AED_TF_AsignacionMed.dir\build.make CMakeFiles/AED_TF_AsignacionMed.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -141,7 +141,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GestionMed.dir\build.make CMakeFiles/GestionMed.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AED_TF_AsignacionMed.dir\build.make CMakeFiles/AED_TF_AsignacionMed.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -149,7 +149,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GestionMed.dir\build.make CMakeFiles/GestionMed.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AED_TF_AsignacionMed.dir\build.make CMakeFiles/AED_TF_AsignacionMed.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -160,7 +160,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... GestionMed
+	@echo ... AED_TF_AsignacionMed
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

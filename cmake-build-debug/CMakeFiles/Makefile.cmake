@@ -7,7 +7,7 @@ set(CMAKE_DEPENDS_GENERATOR "MinGW Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "D:/C++Proyectos/AED-TF-GestionMed/CMakeLists.txt"
+  "D:/C++Proyectos/AED-TF-AsignacionMed/CMakeLists.txt"
   "CMakeFiles/3.28.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.28.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.28.1/CMakeRCCompiler.cmake"
@@ -138,5 +138,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/GestionMed.dir/DependInfo.cmake"
+  "CMakeFiles/AED_TF_AsignacionMed.dir/DependInfo.cmake"
   )

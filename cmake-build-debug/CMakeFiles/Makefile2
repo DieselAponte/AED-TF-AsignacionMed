@@ -53,16 +53,16 @@ RM = "D:\CLion 2024.1.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\C++Proyectos\AED-TF-GestionMed
+CMAKE_SOURCE_DIR = D:\C++Proyectos\AED-TF-AsignacionMed
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\C++Proyectos\AED-TF-GestionMed\cmake-build-debug
+CMAKE_BINARY_DIR = D:\C++Proyectos\AED-TF-AsignacionMed\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/GestionMed.dir/all
+all: CMakeFiles/AED_TF_AsignacionMed.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -70,34 +70,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/GestionMed.dir/clean
+clean: CMakeFiles/AED_TF_AsignacionMed.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/GestionMed.dir
+# Target rules for target CMakeFiles/AED_TF_AsignacionMed.dir
 
 # All Build rule for target.
-CMakeFiles/GestionMed.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GestionMed.dir\build.make CMakeFiles/GestionMed.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GestionMed.dir\build.make CMakeFiles/GestionMed.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\C++Proyectos\AED-TF-GestionMed\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target GestionMed"
-.PHONY : CMakeFiles/GestionMed.dir/all
+CMakeFiles/AED_TF_AsignacionMed.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AED_TF_AsignacionMed.dir\build.make CMakeFiles/AED_TF_AsignacionMed.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AED_TF_AsignacionMed.dir\build.make CMakeFiles/AED_TF_AsignacionMed.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\C++Proyectos\AED-TF-AsignacionMed\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target AED_TF_AsignacionMed"
+.PHONY : CMakeFiles/AED_TF_AsignacionMed.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/GestionMed.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\C++Proyectos\AED-TF-GestionMed\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/GestionMed.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\C++Proyectos\AED-TF-GestionMed\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/GestionMed.dir/rule
+CMakeFiles/AED_TF_AsignacionMed.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\C++Proyectos\AED-TF-AsignacionMed\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/AED_TF_AsignacionMed.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\C++Proyectos\AED-TF-AsignacionMed\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/AED_TF_AsignacionMed.dir/rule
 
 # Convenience name for target.
-GestionMed: CMakeFiles/GestionMed.dir/rule
-.PHONY : GestionMed
+AED_TF_AsignacionMed: CMakeFiles/AED_TF_AsignacionMed.dir/rule
+.PHONY : AED_TF_AsignacionMed
 
 # clean rule for target.
-CMakeFiles/GestionMed.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GestionMed.dir\build.make CMakeFiles/GestionMed.dir/clean
-.PHONY : CMakeFiles/GestionMed.dir/clean
+CMakeFiles/AED_TF_AsignacionMed.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AED_TF_AsignacionMed.dir\build.make CMakeFiles/AED_TF_AsignacionMed.dir/clean
+.PHONY : CMakeFiles/AED_TF_AsignacionMed.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
