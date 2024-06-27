@@ -1,2 +1,2 @@
-# AED-TF-AsignacionMed
-Process of asssing doctors
+# AED-TF-GestionMed
+Process of despatching meds
